@@ -44,9 +44,10 @@ function verificaErro($erro){
 }
 function verificaTamanho($size){
     //verifica tamanho do arquivo 2 * 1024 * 1024 = 2MB
-    if ($size > 7152)
+    if ($size > 2097152){
         echo "Arquivo maior que 2MB!";
         die();
+    }
 }
 function verificaExtensao($novoNomeArquivo){
     $extensao = strtolower(pathinfo($novoNomeArquivo, PATHINFO_EXTENSION));
