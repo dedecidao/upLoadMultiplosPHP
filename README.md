@@ -1,5 +1,5 @@
 # upLoadMultiplosPHP
-Trata e valida inserção múltiplas de anexos com PHP puro.
+Trata e valida inserção múltipla de anexos com PHP puro.
 
 
 Print 1
